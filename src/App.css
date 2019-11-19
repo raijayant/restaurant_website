@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
+:root{
+  --mainBlue: #2a2a2a;
+  --mainlight: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
 }
 
-.App-logo {
-  height: 40vmin;
+.app{
+  font-family: 'Work Sans', sans-serif !important;
+   background-image: url('./restaurant2.jpeg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
