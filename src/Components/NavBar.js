@@ -11,13 +11,16 @@ class NavBar extends Component {
             <img src={Logo} alt="logo" className="navbar-brand" style={{width: "5rem", height: "5rem"}} />
         </Link>
         <Link to="/aboutus" className="nav-link nav-item">
-            About Us
+            About
         </Link>
         <Link to="/menu" className="nav-link nav-item">
             Menu
         </Link>
-        <Link to="/contact" className="nav-link ml-auto" >
+        <Link to="/contact" className="nav-link nav-item" >
         Contact
+        </Link>
+        <Link to="/cart" className="nav-link ml-auto" >
+        Cart
         </Link>
       </NavWrapper>
     )
@@ -27,11 +30,11 @@ class NavBar extends Component {
 const NavWrapper = styled.nav`
     background: var(--mainLight);
     .nav-link {
-        color: var(--mainWhite) !important;
         font-size: 1.3rem;
+        color: black;
     }
     .navbar-brand{
-      height: 3rem;
+      height: 2rem;
     }
 `
 

@@ -4,6 +4,7 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+  --mainRed:   #e60000;
 }
 
 .app{
@@ -15,6 +16,20 @@
   background-repeat: no-repeat;
   top: 0;
   bottom: 0;
-  height: 100vh;
+  height: 75vh;
+  
+ 
 }
 
+
+.card-img-top{
+  height: 15rem;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+  }
+  .col {
+    display: table-cell;
+  }

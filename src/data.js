@@ -2,19 +2,19 @@ export const menuItems = [
     {
         id: 1, 
         title: "Chicken and rice",
-        img: "../public/img/menu1.jpeg",
+        img: "img/menu1.jpeg",
         price: 9.99,
-        description: "Rice topped with chicken gravy",
+        description: "Chicken Curry Rice",
         inCart: false,
         count: 0,
         total: 0
     },
     {
         id: 2, 
-        title: "Shrimp curry with rice",
-        img: "../public/img/menu2.jpeg",
+        title: "Shrimp curry ",
+        img: "img/menu2.jpeg",
         price: 11.99,
-        description: "Fresh Shrimp topped with rice and curry",
+        description: "Fresh Shrimp Curry",
         inCart: false,
         count: 0,
         total: 0
@@ -22,9 +22,9 @@ export const menuItems = [
     {
         id: 3, 
         title: "Beef Burger",
-        img: "../public/img/menu3.jpeg",
+        img: "img/menu3.jpeg",
         price: 9.99,
-        description: "Beef patty topped with lettuce, pickles, tomatoes",
+        description: "Beef Burger",
         inCart: false,
         count: 0,
         total: 0
@@ -32,7 +32,7 @@ export const menuItems = [
     {
         id: 4, 
         title: "Fruit Salad",
-        img: "../public/img/menu4.jpeg",
+        img: "img/menu4.jpeg",
         price: 9.99,
         description: "Variety of fruits",
         inCart: false,
@@ -42,9 +42,9 @@ export const menuItems = [
     {
         id: 5, 
         title: "Pork slice",
-        img: "../public/img/menu5.jpeg",
+        img: "img/menu5.jpeg",
         price: 9.99,
-        description: "Pork chopped with cilantro",
+        description: "Pork chopped",
         inCart: false,
         count: 0,
         total: 0
@@ -52,7 +52,7 @@ export const menuItems = [
     {
         id: 6, 
         title: "Chicken kabab",
-        img: "../public/img/menu6.jpeg",
+        img: "img/menu6.jpeg",
         price: 9.99,
         description: "Deep Fried chicken",
         inCart: false,
@@ -61,8 +61,8 @@ export const menuItems = [
     },
     {
         id: 7, 
-        title: "Chicken Sphagetti",
-        img: "../public/img/menu7.jpeg",
+        title: "Chicken Spaghetti",
+        img: "img/menu7.jpeg",
         price: 9.99,
         description: "Chicken served with sphagetti",
         inCart: false,
@@ -72,7 +72,7 @@ export const menuItems = [
     {
         id: 8, 
         title: "Turkey Sandwich",
-        img: "../public/img/menu8.jpeg",
+        img: "img/menu8.jpeg",
         price: 9.99,
         description: "Turkey Sandwich with lettuce",
         inCart: false,
@@ -82,7 +82,7 @@ export const menuItems = [
     {
         id: 9, 
         title: "Seafood Noodle",
-        img: "../public/img/menu9.jpeg",
+        img: "img/menu9.jpeg",
         price: 9.99,
         description: "Served with noodle and egg",
         inCart: false,
@@ -90,9 +90,9 @@ export const menuItems = [
         total: 0
     },
     {
-        id: 1, 
+        id: 10, 
         title: "Shrimp Salad",
-        img: "../public/img/menu10.jpeg",
+        img: "img/menu10.jpeg",
         price: 9.99,
         description: "Shrimp served with lettuce",
         inCart: false,

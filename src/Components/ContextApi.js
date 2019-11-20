@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { menuItems } from '../data'
+import { menuItems } from '../data.js'
 
 const ProductContext = React.createContext()
 
@@ -18,7 +18,7 @@ class ProductProvider extends Component {
     }
 
     setMenuItems = () => {
-        let tempMenu = []
+        let tempMenu = [];
         menuItems.forEach(item => {
             const singleItem = {...item}
             tempMenu = [...tempMenu, singleItem]
@@ -28,11 +28,20 @@ class ProductProvider extends Component {
     })
     }
 
+    handleDetail = id => {
+        console.log("hello from handledetail")
+    }
+
+    addToCart = id => {
+        console.log(id)
+    }
+
     render() {
         return (
             <ProductContext.Provider
             value={{
-                ...this.state  
+                ...this.state,
+                addToCart: this.addToCart
             }}>
             {this.props.children}
             </ProductContext.Provider>
@@ -40,6 +49,6 @@ class ProductProvider extends Component {
     }
 }
 
-const ProductConsumer = ProductContext.ProductConsumer
+const ProductConsumer = ProductContext.Consumer
 
 export { ProductProvider, ProductConsumer }
