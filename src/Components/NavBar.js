@@ -11,16 +11,20 @@ class NavBar extends Component {
             <img src={Logo} alt="logo" className="navbar-brand" style={{width: "5rem", height: "5rem"}} />
         </Link>
         <Link to="/aboutus" className="nav-link nav-item">
-            About
+            <div> About</div>           
         </Link>
         <Link to="/menu" className="nav-link nav-item">
-            Menu
-        </Link>
+        <div>Menu</div>
+                
+          </Link>
         <Link to="/contact" className="nav-link nav-item" >
-        Contact
+        <div>Contact</div>
+        
         </Link>
         <Link to="/cart" className="nav-link ml-auto" >
-        Cart
+        <div>
+            Cart
+          </div> 
         </Link>
       </NavWrapper>
     )

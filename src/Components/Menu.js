@@ -19,7 +19,7 @@ class Menu extends Component {
                  
             </div>
             <button
-                  className="cart-btn mb-3"
+                  className="cart-btn mb-2"
                   disabled={inCart ? true : false}
                   onClick={() => {
                     value.addToCart(id)
@@ -29,8 +29,7 @@ class Menu extends Component {
 
                   {inCart ? (
                     <p disabled>
-                  {" "} 
-                  in cart
+                    In Cart
                     </p>
                   ) : (
                     <i className="fas fa-cart-plus" />

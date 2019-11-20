@@ -20,7 +20,7 @@ class App extends React.Component {
             <Router>
             <NavBar />
               <Switch>
-                  
+                    <Route exact path="/" component={AboutUs} />
                     <Route path="/menu" component={MenuList} />
                     <Route path="/aboutus" component={AboutUs} />
                     <Route path="/cart" component={Cart} />

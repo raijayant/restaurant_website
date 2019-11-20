@@ -98,6 +98,26 @@ export const menuItems = [
         inCart: false,
         count: 0,
         total: 0
+    },
+    {
+        id: 11, 
+        title: "Strawberries",
+        img: "img/menu11.jpeg",
+        price: 4.99,
+        description: "Strawberries",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 12, 
+        title: "Pizza",
+        img: "img/menu12.jpeg",
+        price: 9.99,
+        description: "Large Pizza",
+        inCart: false,
+        count: 0,
+        total: 0
     }
 ]
 export const detailMenu = {
