@@ -9,6 +9,9 @@ class CartColumns extends Component {
             <p className="text-uppercase">Items</p>
             </div>
             <div className="col-10 mx-auto col-lg-2">
+            <p className="text-uppercase">Order</p>
+          </div>
+            <div className="col-10 mx-auto col-lg-2">
                 <p className="text-uppercase">Price</p>
             </div>
             <div className="col-10 mx-auto col-lg-2">

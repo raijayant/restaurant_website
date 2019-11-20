@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar.js'
 import MenuList from './Components/MenuList.js'
 import AboutUs from './Components/AboutUs.js'
 import Cart from './Components/Cart/Cart'
+import Modal from './Components/Modal'
 
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 
@@ -24,7 +25,7 @@ class App extends React.Component {
                     <Route path="/aboutus" component={AboutUs} />
                     <Route path="/cart" component={Cart} />
               </Switch>
-            
+            <Modal />
             </Router> 
            
       </div>
