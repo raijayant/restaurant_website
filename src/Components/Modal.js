@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { ProductConsumer } from '../Components/ContextApi'
 import { Link } from 'react-router-dom'
+import { ButtonContainer} from './Buttons'
 
 class Modal extends Component {
   render() {
@@ -29,16 +30,16 @@ class Modal extends Component {
                 </h5>
 
                <Link to='/menu'>
-               <button onClick={()=> closeModal()}>
+               <ButtonContainer onClick={()=> closeModal()}>
                 Continue Shopping
-               </button>
+               </ButtonContainer>
                </Link>
 
 
                <Link to='/cart'>
-               <button cart onClick={()=> closeModal()}>
+               <ButtonContainer cart onClick={()=> closeModal()}>
                 Go To Cart
-               </button>
+               </ButtonContainer>
                </Link>
 
               </div>

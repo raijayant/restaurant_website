@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ProductConsumer } from './ContextAPI'
+import { ProductConsumer } from '../Components/ContextApi'
 import { Link } from 'react-router-dom'
 import { ButtonContainer } from './Buttons'
 

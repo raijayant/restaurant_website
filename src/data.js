@@ -1,6 +1,6 @@
 export const menuItems = [
     {
-        id: 1, 
+        id: "sku_GDGkKMI7n6CZR4", 
         title: "Chicken and rice",
         img: "img/menu1.jpeg",
         price: 9.99,
@@ -10,7 +10,7 @@ export const menuItems = [
         total: 0
     },
     {
-        id: 2, 
+        id: "sku_GDGlrZ0cVymwNF", 
         title: "Shrimp curry ",
         img: "img/menu2.jpeg",
         price: 11.99,
@@ -20,7 +20,7 @@ export const menuItems = [
         total: 0
     },
     {
-        id: 3, 
+        id: "sku_GDGlTxWUIj1CJS", 
         title: "Beef Burger",
         img: "img/menu3.jpeg",
         price: 9.99,

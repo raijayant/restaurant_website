@@ -4,10 +4,11 @@ import { ProductConsumer } from './ContextApi.js'
 
 
 
+
 class Menu extends Component {
 
   render() {
-    const { id, title, price, img, description, inCart } = this.props.menu
+    const { id, title, price, img, inCart } = this.props.menu
     return (
       <ProductWrapper className="col-6 col-md-3 col-lg-3">
       <div className="card mb-2">
@@ -35,6 +36,7 @@ class Menu extends Component {
                     <i className="fas fa-cart-plus" />
                   )}
                   </button>
+                  
             
           </div>
 
@@ -54,8 +56,10 @@ class Menu extends Component {
                 
             </div>
             <div>
-          
+            
+           
             </div>
+            
        
       </div>
 

@@ -13,6 +13,7 @@ class ProductProvider extends Component {
         cartSubTotal: 0,
         cartTax: 0,
         cartTotal: 0
+        
     }
 
     componentDidMount() {
@@ -162,6 +163,7 @@ class ProductProvider extends Component {
         }
         })
     }
+    
 
     render() {
         return (
@@ -174,7 +176,8 @@ class ProductProvider extends Component {
                 increment: this.increment,
                 decrement: this.decrement,
                 clearCart: this.clearCart,
-                removeItem: this.removeItem
+                removeItem: this.removeItem,
+                
             }}>
             {this.props.children}
             </ProductContext.Provider>
