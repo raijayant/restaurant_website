@@ -6,7 +6,13 @@ import { ProductConsumer } from '../ContextApi'
 import CartList from './CartList'
 import CartTotals from './CartTotals'
 
+
+
+
+
 class Cart extends Component {
+
+  
   render() {
     return (
       <section>
@@ -21,14 +27,18 @@ class Cart extends Component {
                             <CartList value={value}/>
                             <CartTotals value={value}
                             history={this.props.history}/>
+                            
 
                         </React.Fragment>
                     )
                 }else {
                     return <EmptyCart />
                 }
+              
+
             }}
         </ProductConsumer>
+        
 
       </section>
     )

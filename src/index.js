@@ -9,7 +9,7 @@ import { ProductProvider } from './Components/ContextApi.js'
 ReactDOM.render(
 <ProductProvider>
 <Router>
-<App />
+<App/>
 </Router>
 </ProductProvider>, document.getElementById('root'));
 

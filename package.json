@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.15",
@@ -11,6 +12,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^6.0.1",
     "styled-components": "^4.4.1"
   },
   "scripts": {
