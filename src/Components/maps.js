@@ -5,7 +5,7 @@ const mapStyles = {
 	width: '50%',
 	height: '50%'
 };
-
+// need to add marker and go to google map option
 export class MapContainer extends Component {
 	state = {
 		showingInfoWindow: false, //Hides or the shows the infoWindow
